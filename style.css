@@ -443,7 +443,14 @@ body {
     min-width: 4px;
     background-color: #6366F1;
     border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
+
+.testimonial-item.active .testimonial-marker {
+    opacity: 1;
+}
+
 
 .testimonial-content h3 {
     font-size: 18px;

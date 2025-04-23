@@ -43,3 +43,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// testimonial hover marker logic
+const testimonialItems = document.querySelectorAll('.testimonial-item');
+const firstTestimonial = testimonialItems[0];
+
+if (firstTestimonial) {
+    firstTestimonial.classList.add('active');
+
+    testimonialItems.forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            testimonialItems.forEach(t => t.classList.remove('active'));
+            item.classList.add('active');
+        });
+
+        item.addEventListener('mouseleave', () => {
+            testimonialItems.forEach(t => t.classList.remove('active'));
+            firstTestimonial.classList.add('active');
+        });
+    });
+}
