@@ -376,6 +376,103 @@ body {
     font-weight: 500;
 }
 
+/* Target Section Styles */
+.target-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.target-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.target-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.target-text {
+    flex: 1;
+    max-width: 550px;
+}
+
+.target-tag {
+    color: #6c63ff;
+    font-weight: 500;
+    background-color: #eef0ff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 999px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.target-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.target-description {
+    color: #4B5563;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    width: 500px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.testimonial-item {
+    display: flex;
+    gap: 16px;
+}
+
+.testimonial-marker {
+    width: 4px;
+    min-width: 4px;
+    background-color: #6366F1;
+    border-radius: 2px;
+}
+
+.testimonial-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.testimonial-content p {
+    color: #4B5563;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.target-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dashboard-mockup {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
 
 
 
@@ -509,6 +606,55 @@ body {
 
 .stat-title {
     font-size: 1rem;
+}
+
+.target-section {
+    padding: 50px 0;
+}
+
+.target-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.target-text {
+    max-width: 100%;
+}
+
+.target-title {
+    font-size: 28px;
+}
+
+.target-description {
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.testimonials {
+    gap: 24px;
+}
+
+.testimonial-item {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonial-marker {
+    margin-bottom: 12px;
+}
+
+.target-image {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.dashboard-mockup {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: none;
 }
 
 
