@@ -204,7 +204,7 @@ body {
 /* Company Section */
 .company-section {
     padding: 4rem 2rem;
-    background-color: #f9f9ff;
+    background-color: #f3f5f9;
     text-align: center;
 }
 
@@ -233,6 +233,79 @@ body {
 .company-row img:hover {
     filter: grayscale(100%);
 }
+
+.features-section {
+    padding: 80px 20px;
+    background-color: #f9fafe;
+    text-align: center;
+  }
+  
+  .features-section .section-tag {
+    color: #6c63ff;
+    font-weight: 500;
+    background-color: #eef0ff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 999px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .features-section .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #111827;
+  }
+  
+  .features-section .section-description {
+    color: #6b7280;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .feature-item {
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    filter: brightness(0) saturate(100%) invert(24%) sepia(91%) saturate(1473%) hue-rotate(221deg) brightness(102%) contrast(97%);
+  }
+  
+  .feature-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #111827;
+  }
+  
+  .feature-item p {
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+  .features-section .container .section-title {
+    font-size: 36px;
+  }
 
 
 
@@ -307,6 +380,7 @@ body {
     width: 96px;
     height: auto;
 }
+
 
 }
 
