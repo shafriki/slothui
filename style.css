@@ -381,6 +381,23 @@ body {
     height: auto;
 }
 
+/* features content style */
+.features-grid {
+    gap: 20px; /* Reduced from 40px to 20px */
+  }
+
+  .features-section {
+    padding: 60px 15px; /* Slightly tighter padding for mobile */
+  }
+
+  .features-section .section-title {
+    font-size: 24px;
+  }
+
+  .feature-item {
+    padding: 5px;
+  }
+
 
 }
 
