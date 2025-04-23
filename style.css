@@ -123,14 +123,88 @@ body {
     margin-top: 1rem;
 }
 
-/* Responsive styles */
-@media (max-width: 992px) {
-    .navbar-links {
-        gap: 1rem;
-    }
+/* Banner Section */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(
+        to bottom,
+        #ffffff 0%,
+        #dee6f3 50%,
+        #b0d5f7 100%
+    );
 }
 
-@media (max-width: 768px) {
+
+    .banner p:first-child {
+        display: inline-block; 
+        background-color: #9e99fa;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.05em;
+        padding: 0.25rem 0.75rem; 
+        border-radius: 9999px; 
+        line-height: 20px;
+    }
+    
+
+.banner h1 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    width: 800px;
+    line-height: 68px;
+}
+
+.banner p:nth-of-type(2) {
+    font-size: 1rem;
+    color: #475569;
+    width: 800px;         
+    margin: 0 auto 2rem;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+
+
+.banner .store-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.banner .store-buttons {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 0.75rem;
+    }
+
+    .banner .store-buttons img {
+        width: 140px;
+        height: auto;
+    }
+
+.banner .frame {
+    width: 1080px;
+    height: 600px;
+    margin-top: 1rem;
+}
+
+
+
+/* Responsive styles */
+
+@media screen and (max-width: 576px) {
     .navbar-links,
     .navbar-auth {
         display: none;
@@ -143,16 +217,50 @@ body {
     .mobile-menu.active {
         display: block;
     }
+
+    /* Banner content styles */
+.banner {
+    padding: 3rem 1rem;
 }
 
-/* Main content styles */
-main {
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+.banner p:first-child {
+    font-size: 14px;
 }
 
-h1 {
-    margin-bottom: 1rem;
-    color: #2c3e50;
+.banner h1 {
+    font-size: 31px;
+    width: 343px;
+    line-height: 44px;
+    letter-spacing: -1.4%;
 }
+
+.banner p:nth-of-type(2) {
+    font-size: 16px;
+    line-height: 160%;
+    width: 343px;
+}
+
+.banner .store-buttons {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.75rem;
+}
+
+.banner .store-buttons img {
+    width: 140px;
+    height: auto;
+}
+
+.banner btn-google {
+    width: 140px;
+    height: auto;
+}
+
+.banner .frame {
+    width: 343px;
+    height: 230px;
+}
+
+}
+
+
