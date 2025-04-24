@@ -1,6 +1,6 @@
 # slotUI 
 
-A simple slot machine UI built using **raw HTML**, **CSS**, and **JavaScript**.  
+A simple slotUI web task built using **raw HTML**, **CSS**, and **JavaScript**.  
 This project was completed as part of a job task given by **Blinto LLC**.
 
 ##  Live Preview
