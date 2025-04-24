@@ -11,10 +11,9 @@ This project was completed as part of a job task given by **Blinto LLC**.
 
 ##  Features
 
-- Slot machine layout with spin functionality
+- SlotUI layout with some functionality
 - Clean and responsive design using pure CSS
 - Logic implemented using vanilla JavaScript
-- Dynamic interaction on user spin
 
 ---
 
