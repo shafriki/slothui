@@ -244,6 +244,12 @@ body {
     background-color: #f9fafe;
     text-align: center;
   }
+  .features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
   
   .features-section .section-tag {
     color: #6c63ff;
@@ -495,6 +501,7 @@ body {
 .testimonials-section {
     padding: 60px 0;
     text-align: center;
+    
 }
 
 .testimonials-link {
@@ -594,6 +601,13 @@ body {
     color: #6b7280;
 }
 
+.testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  
 /* Office section styles */
 .office-section {
     max-width: 1200px;
