@@ -1,26 +1,26 @@
-# slotUI 🎰
+# slotUI 
 
 A simple slot machine UI built using **raw HTML**, **CSS**, and **JavaScript**.  
 This project was completed as part of a job task given by **Blinto LLC**.
 
-## 🚀 Live Preview
+##  Live Preview
 
-[[Add your deployed link here if available](https://slothui-blinto.vercel.app)]
-
----
-
-## 📂 Features
-
-- 🎰 Slot machine layout with spin functionality
-- ✨ Clean and responsive design using pure CSS
-- ⚙️ Logic implemented using vanilla JavaScript
-- 🔄 Dynamic interaction on user spin
+[[click here to view linve project](https://slothui-blinto.vercel.app)]
 
 ---
 
+##  Features
+
+- Slot machine layout with spin functionality
+- Clean and responsive design using pure CSS
+- Logic implemented using vanilla JavaScript
+- Dynamic interaction on user spin
+
+---
 
 
-## 🛠️ Built With
+
+## Built With
 
 - HTML5
 - CSS3
@@ -28,7 +28,7 @@ This project was completed as part of a job task given by **Blinto LLC**.
 
 ---
 
-## 📁 Getting Started
+## Getting Started
 
 To run the project locally:
 
