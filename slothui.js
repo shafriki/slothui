@@ -63,3 +63,29 @@ if (firstTestimonial) {
         });
     });
 }
+
+// Load More button logic
+const loadMoreBtn = document.querySelector('.load-more-btn');
+const testimonialCards = document.querySelectorAll('.testimonial-card');
+
+if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+        testimonialCards.forEach(card => {
+            card.style.display = 'block';
+        });
+        loadMoreBtn.style.display = 'none';
+    });
+}
+
+// Live Button Scroll to Top
+const liveButton = document.querySelector('.live-button');
+
+if (liveButton) {
+    liveButton.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}
+
